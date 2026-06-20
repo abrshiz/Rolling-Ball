@@ -162,7 +162,6 @@ void Game::Update(float dt) {
         }
         return; // don't update rest of game
     }
-
     menu.Update(dt);
 
     if (state == GameState::PLAYING) {
