@@ -5,7 +5,6 @@
 #include <GL/glut.h>
 #endif
 #include <cmath>
-
 void RenderUtils::DrawRect(float x, float y, float w, float h, float r, float g, float b, float a) {
     glColor4f(r, g, b, a);
     glBegin(GL_QUADS);
@@ -15,7 +14,6 @@ void RenderUtils::DrawRect(float x, float y, float w, float h, float r, float g,
     glVertex2f(x, y+h);
     glEnd();
 }
-
 void RenderUtils::DrawGradientRect(float x, float y, float w, float h, 
                                    float r1, float g1, float b1, 
                                    float r2, float g2, float b2) {
