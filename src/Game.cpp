@@ -9,9 +9,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <algorithm>
-
 Game g_Game; // global game object
-
 Game::Game() {
     state = GameState::SPLASH;
     windowWidth = 800;
